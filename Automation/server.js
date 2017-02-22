@@ -20,9 +20,11 @@ app.use(express.static(path.join(__dirname,'client/src')));
 //app.set('trust proxy', 1);
 //Set Session
 app.use(session(
-				{secret:"qwerty",resave:false,
-				saveUninitialized: true,
-  				cookie: { secure:false}// secure:true for https // Need to verify
+				{secret:"qwerty",
+				resave:true,
+				saveUninitialized: false,
+  				cookie: { secure:false,
+  						HttpOnly:true,}// secure:true for https // Need to verify
   				}
 		));
 
