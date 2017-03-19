@@ -15,9 +15,13 @@
     "express": "^4.14.1",
     "express-session": "^1.15.1",
     "http": "0.0.0",
+    "jenkins-api": "^0.2.8",
+    "js2xmlparser": "^3.0.0",
+    "jsontoxml": "0.0.11",
     "mongodb": "^2.2.24",
     "mongojs": "^2.4.0",
     "node-rest-client": "^3.0.3",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "stash-rest-api": "^2.6.0"
   }
 }
